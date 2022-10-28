@@ -1,0 +1,19 @@
+.search-bar {
+    padding: .4em .5em;
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+form input {
+    outline: none;
+}
+
+form img {
+    padding-right: .3em;
+}

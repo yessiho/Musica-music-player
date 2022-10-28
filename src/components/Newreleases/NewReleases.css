@@ -1,0 +1,35 @@
+.new-releases {
+    margin-top: 2em;
+}
+
+.cards {
+    display: flex;
+    gap: 3em;
+    width: 100%;
+    margin: 1em 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.cards::-webkit-scrollbar-track {
+    background-color: #1d2123;
+}
+
+.cards::-webkit-scrollbar-thumb {
+    background-color: #292e30;
+    border-radius: 42px;
+}
+
+.cards::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.cards {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cards img {
+    padding-bottom: 1em;
+}

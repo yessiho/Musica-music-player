@@ -1,0 +1,33 @@
+.music-player-wrapper {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 125px;
+    backdrop-filter: blur(10px);
+    filter: drop-shadow(0px -25px 100px rgba(16, 16, 16, 0.51));
+}
+
+.song {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.thumbnail {
+    border-radius: 14px;
+    width: 49px;
+    height: 49px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}

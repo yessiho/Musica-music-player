@@ -1,0 +1,43 @@
+.music-progress {
+    position: relative;
+    background-color: #facd66;
+    height: 100%;
+    width: 30%;
+    border-radius: 42px;
+}
+
+.music-progress .circle {
+    position: absolute;
+    padding: 6px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #fff;
+    display: block;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: -5px;
+    z-index: 100;
+}
+
+.circle .small-circle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #facd66;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.music-progress-bar {
+    width: 749px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.305);
+    /* opacity: 10%; */
+    border-radius: 42px;
+}

@@ -1,0 +1,24 @@
+button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 5em;
+}
+
+.main-buttons {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+.play {
+    background-color: #facd66;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}

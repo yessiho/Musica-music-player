@@ -1,0 +1,21 @@
+.progress-bar {
+    width: 160px;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.305);
+    /* opacity: 10%; */
+    border-radius: 42px;
+    overflow: hidden;
+}
+
+.volume {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.progress {
+    background-color: #facd66;
+    height: 100%;
+    width: 52px;
+}
+
